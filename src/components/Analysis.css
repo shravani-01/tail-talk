@@ -1,0 +1,22 @@
+.analysis-container {
+    background: url('../images/analytics.gif') center center/cover no-repeat;
+    height: 86vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+  
+
+.analysis-header{
+    color:white;
+    font-size:100px;
+    text-align:center;
+    margin:50px;
+}

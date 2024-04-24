@@ -1,0 +1,55 @@
+.dropdown-exp-content {
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  .dropdown-exp-toggle {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .dropdown-exp-content {
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dropdown-exp-content h3 {
+    font-size: 1.5rem; 
+    margin-bottom: 20px;
+  }
+  
+  .dropdown-exp-content ul {
+    list-style-type: none;
+    padding: 0;
+
+  }
+  
+  .dropdown-exp-content li {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.5rem; 
+    
+  }
+  .about-content {
+    display: flex;
+  }
+  
+  .about-card {
+    flex: 1 1 30%;
+    margin: 0 20px;
+  }
+  .cards-h3{
+    text-align: center;
+    color: white;
+  }
