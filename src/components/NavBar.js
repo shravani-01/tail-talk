@@ -53,17 +53,17 @@ export default function App() {
         <MDBCollapse  navbar open={openNavRight}>
         <MDBNavbarNav style={{ marginLeft: 'auto', flexDirection: 'row' }} fullWidth={false} className='mb-2 mb-lg-0'>
             <MDBNavbarItem>
-              <MDBNavbarLink href='/tail-talk' active aria-current='page'  style={{ color: scrolling ? 'white' : 'white' }}>
+              <MDBNavbarLink href='/' active aria-current='page'  style={{ color: scrolling ? 'white' : 'white' }}>
                 Home
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href='/tail-talk/AI' active aria-current='page'  style={{ color: scrolling ? 'white' : 'white' }}>
+              <MDBNavbarLink href='/AI' active aria-current='page'  style={{ color: scrolling ? 'white' : 'white' }}>
                 Try our AI
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href='/tail-talk/data' style={{ color: scrolling ? 'white' : 'white' }}>
+              <MDBNavbarLink href='/data' style={{ color: scrolling ? 'white' : 'white' }}>
                 Data
               </MDBNavbarLink>
             </MDBNavbarItem>
@@ -74,20 +74,20 @@ export default function App() {
                   Approach
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
-                  <MDBDropdownItem link href='/tail-talk/LLM'>LLMs</MDBDropdownItem>
-                  <MDBDropdownItem link href='/tail-talk/RAG'>RAG</MDBDropdownItem>
+                  <MDBDropdownItem link href='/LLM'>LLMs</MDBDropdownItem>
+                  <MDBDropdownItem link href='/RAG'>RAG</MDBDropdownItem>
                 </MDBDropdownMenu>
               </MDBDropdown>
             </MDBNavbarItem>
 
             <MDBNavbarItem>
-              <MDBNavbarLink href='/tail-talk/Analysis' style={{ color: scrolling ? 'white' : 'white' }}>
+              <MDBNavbarLink href='/Analysis' style={{ color: scrolling ? 'white' : 'white' }}>
                 Analysis
               </MDBNavbarLink>
             </MDBNavbarItem>
 
             <MDBNavbarItem>
-              <MDBNavbarLink href='/tail-talk/Team' style={{ color: scrolling ? 'white' : 'white' }}>
+              <MDBNavbarLink href='/Team' style={{ color: scrolling ? 'white' : 'white' }}>
                 Team
               </MDBNavbarLink>
             </MDBNavbarItem>

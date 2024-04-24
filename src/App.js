@@ -1,5 +1,5 @@
 import { default as React } from 'react';
-import { Route, HashRouter as Router, Routes } from 'react-router-dom';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import AI from './components/AI';
 import Analysis from './components/Analysis';
 import Data from './components/Data';
@@ -14,7 +14,7 @@ import Team from './components/Team';
 
 const App = () => {
     return (
-        <Router basename='/tail-talk'>
+        <Router>
             <div className="app">
                 <NavBar />
                 <Routes>

@@ -2,7 +2,7 @@
   "name": "tail-talk",
   "version": "0.1.0",
   "homepage": "https://shravani-01.github.io/tail-talk",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.2",
     "@testing-library/jest-dom": "^5.17.0",
